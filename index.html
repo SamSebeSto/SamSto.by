@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="yandex-verification" content="d8eb851c5d126763" />
+    <title>СТО САМООБСЛУЖИВАНИЯ</title>
+    <link rel=icon href=images/faviconnew.png>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="vendor/fotorama/fotorama.css">
+    <script src="vendor/fotorama/fotorama.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/animated/animate.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/sto.css">
+    <script src="js/sto.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119676956-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119676956-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48960089 = new Ya.Metrika({
+                    id:48960089,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48960089" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</head>
+<body>
+<div id="body-overlay">
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
+                        aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"> </i><span id="menu-title"> МЕНЮ</span>
+                </button>
+
+                <a class="navbar-brand" id="title-nav" href="#body-overlay">СТО САМООБСЛУЖИВАНИЯ</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#aboutus" id="aboutush">О НАС</a>
+                    </li>
+                    <li>
+                        <a href="#tools" id="toolsh">ИНСТРУМЕНТ</a>
+                    </li>
+                    <li>
+                        <a href="#google-map" id="google-maph">КАРТА</a>
+                    </li>
+                    <li>
+                        <a href="#prices" id="pricesh">ЦЕНА</a>
+                    </li>
+                    <li>
+                        <a href="#gallery" id="galleryh">ФОТО</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" id="reviewsh">ОТЗЫВЫ</a>
+                    </li>
+                    <li id="action-nav">
+                        <a href="#action" id="actionh">АКЦИЯ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid" id="body-to-fix">
+
+        <div class="row about" id="about">
+            <div class="container">
+                <div class="about-ava col-lg-5 col-xs-8 col-md-12 col-sm-6 col-xs-offset-2 col-sm-offset-3 col-lg-offset-1">
+                    <img src="images/avawhite.png" alt="СТО САМООБСЛУЖИВАНИЯ" class="img-responsive">
+                </div>
+
+                <div class="text-center about-text col-lg-6 col-xs-12 col-md-5">
+                    <h1 id="main-h">СТО САМООБСЛУЖИВАНИЯ</h1>
+                    <p class="lead">
+                        Первое в Минске СТО Самообслуживания! Ремонтируйте свое авто сами! Вы платите
+                        только за
+                        время проведенное у нас!
+                    </p>
+                    <div id="about-start">
+                        <p>Запись по телефонам:</p>
+                        <p class="phonenumbers">+375-44-748-90-91</p>
+                        <p class="phonenumbers">+375-29-260-79-73</p>
+                        <p>г. Минск, ул. Красная 7<br> (Территория завода Горизонт)</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+        <span class="tools-body col-lg-4 col-lg-offset-4 col-xs-12">
+            <h3 id="tools" class="text-center" style="font-size: 30px; font-weight: bold">В вашем распоряжении </h3>
+            <i id="arrow-down" class="fa fa-4x fa-caret-down animated infinite bounce" aria-hidden="true"></i>
+                </span>
+        </div>
+        <div class="row">
+            <div class="fotorama col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-nav="thumbs"
+                 data-height="500px">
+                <img src=https://pp.userapi.com/c637430/v637430195/56e58/UlweTg2cBRg.jpg
+                     alt="Пневмогайковерт" data-caption="Пневмогайковерт">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb13/DvvMU8Zscto.jpg"
+                     alt="Бензиновый компрессометр" data-caption="Бензиновый компрессометр">
+                <img src="https://pp.userapi.com/c639820/v639820195/4d47/vduaHcahPl0.jpg"
+                     alt="Пылесос" data-caption="Пылесос">
+                <img src="https://pp.userapi.com/c615816/v615816195/17363/_pHQaS4H5R8.jpg"
+                     alt="Пресс" data-caption="Пресс">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb37/Bijmnuatd4E.jpg"
+                     alt="Аппарат сварочный полуавтомат и дуговой" data-caption="Аппарат сварочный полуавтомат и дуговой">
+                <img src="https://pp.userapi.com/c639331/v639331195/1faef/4UmPdLqGRXw.jpg"
+                     alt="Аппарат сварочный полуавтомат и дуговой" data-caption="Аппарат сварочный полуавтомат и дуговой">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb25/VuF5dZTVIFU.jpg"
+                     alt="Сварочный аппарат дуговой" data-caption="Сварочный аппарат дуговой">
+                <img src="https://pp.userapi.com/c615816/v615816195/15df5/dQHheUCU2m8.jpg"
+                     alt="Набор головок" data-caption="Набор головок">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb2e/x-RF5KoQgiQ.jpg"
+                     alt="Набор торцевых головок" data-caption="Набор торцевых головок">
+                <img src="https://pp.userapi.com/c615816/v615816195/15dfe/Qk_Py2q5Pn8.jpg"
+                     alt="Набор ключей" data-caption="Набор ключей">
+                <img src="https://pp.userapi.com/c639820/v639820195/4d50/Qbk5QxVFNps.jpg"
+                     alt="Тиски слесарные" data-caption="Тиски слесарные">
+                <img src="https://pp.userapi.com/c638829/v638829195/c32e/FE4zVJE64q0.jpg"
+                     alt="Шприц для замены трансмиссионного масла и не только"
+                     data-caption="Шприц для замены трансмиссионного масла и не только">
+                <img src="https://pp.userapi.com/c631517/v631517195/488b7/bEKgRKoq-pY.jpg"
+                     alt="Фен" data-caption="Фен">
+                <img src="https://pp.userapi.com/c615816/v615816195/15dbf/FoXuxyYOyKg.jpg"
+                     alt="Компрессор" data-caption="Компрессор">
+                <img src="https://pp.userapi.com/c615816/v615816195/15db6/3zkgmUYy-lQ.jpg"
+                     alt="Набор для компрессора" data-caption="Набор для компрессора">
+                <img src="https://pp.userapi.com/c639331/v639331195/1faf8/Hddke2wyq-8.jpg"
+                     alt="Домкрат на 3 тоны" data-caption="Домкрат на 3 тоны">
+                <img src="https://pp.userapi.com/c615816/v615816195/15de3/vQptduyofX8.jpg"
+                     alt="Домкрат" data-caption="Домкрат">
+                <img src="https://pp.userapi.com/c615816/v615816195/15e07/V69I6g0myOE.jpg"
+                     alt="Подставки под машину" data-caption="Подставки под машину">
+                <img src="https://pp.userapi.com/c615816/v615816195/15dc8/-eqi1-Q0TmA.jpg"
+                     alt="Болгарка" data-caption="Болгарка">
+                <img src="https://pp.userapi.com/c615816/v615816195/15dda/5BvjYIlPdXk.jpg"
+                     alt="Приспособление для утапливания поршней тормозного цилиндра"
+                     data-caption="Приспособление для утапливания поршней тормозного цилиндра">
+                <img src="https://pp.userapi.com/c615816/v615816195/15dd1/k53axnzN2ZI.jpg"
+                     alt="Съемник масляного фильтра" data-caption="Съемник масляного фильтра">
+                <img src="https://pp.userapi.com/c604324/v604324195/32df1/vbKE9-O5ymk.jpg"
+                     alt="Съемник масляного фильтра" data-caption="Съемник масляного фильтра">
+                <img src="https://pp.userapi.com/c631225/v631225195/32e62/_gjhaC6kerM.jpg"
+                     alt="Домкрат для поднятия двух сторон" data-caption="Домкрат для поднятия двух сторон">
+                <img src="https://pp.userapi.com/c615816/v615816195/17790/_4E9rA40SMQ.jpg"
+                     alt="Баллонный ключ" data-caption="Баллонный ключ">
+                <img src="https://pp.userapi.com/c615816/v615816195/177b5/5bKvH2NzLjU.jpg"
+                     alt="Монтажка" data-caption="Монтажка">
+                <img src="https://pp.userapi.com/c631517/v631517195/4889c/NOp1DcdeKL8.jpg"
+                     alt="Струбцины для пружин" data-caption="Струбцины для пружин">
+                <img src="https://pp.userapi.com/c631517/v631517195/488a5/y4DnU_A2AJM.jpg"
+                     alt="Съемник подшипников" data-caption="Съемник подшипников">
+                <img src="https://pp.userapi.com/c631327/v631327195/40865/nFSbpvIjTNs.jpg"
+                     alt="Съемник шаровых" data-caption="Съемник шаровых">
+                <img src="https://pp.userapi.com/c631517/v631517195/488ae/WQ56XEPjyyA.jpg"
+                     alt="Ударная головка на 36" data-caption="Ударная головка на 36">
+                <img src="https://pp.userapi.com/c631517/v631517195/48893/mPwIvxKmJoo.jpg"
+                     alt="Головка на 24" data-caption="Головка на 24">
+                <img src="https://pp.userapi.com/c631327/v631327195/4086e/HRx7zv0aToQ.jpg"
+                     alt="Шестигранник на 17" data-caption="Шестигранник на 17">
+                <img src="https://pp.userapi.com/c638829/v638829195/c337/nOwNyOxU22I.jpg"
+                     alt="Головка квадрат 8х8 мм, для сливных и заливных пробок"
+                     data-caption="Головка квадрат 8х8 мм, для сливных и заливных пробок">
+                <img src="https://pp.userapi.com/c636523/v636523195/21a6e/mJcw_rME8Lc.jpg"
+                     alt="Набор 12 гранных бит" data-caption="Набор 12 гранных бит">
+                <img src="https://pp.userapi.com/c639820/v639820195/4d3e/gkxQYMLlXR8.jpg"
+                     alt="Набор круглогубцев" data-caption="Набор круглогубцев">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb01/FVMeDG1Zx_g.jpg"
+                     alt="Зажим Гейферный" data-caption="Зажим Гейферный">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb0a/YVXgCbQ-Nko.jpg"
+                     alt="Ключ для тормозных трубок на 10 и 11" data-caption="Ключ для тормозных трубок на 10 и 11">
+                <img src="https://pp.userapi.com/c639331/v639331195/1fb1c/N26JXy80AkI.jpg"
+                     alt="Отвертки" data-caption="Отвертки">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row text-center" id="aboutus">
+            <h2>Гараж на час!</h2>
+        </div>
+        <div class="row text-center specdesc">
+            <div class="col-lg-8 col-lg-offset-2"><h3>СТО самообслуживания - это такое место, где ВЫ сами сможете
+                самостоятельно обслужить свою машину и будете уверены что все работы выполнены качественно.</h3>
+                <h3>Мы предоставляем Вам помещение с ямами, многочисленным оборудованием и инструментом для ремонта
+                    Авто
+                    В САМОМ ЦЕНТРЕ МИНСКА (ул. Красная, 7).</h3>
+                <h3>Также вы можете обратиться за консультацией к нашим специалистам.</h3>
+            </div>
+        </div>
+
+
+        <div class="row stock" id="re">
+            <div class="pros-stock text-center col-lg-2 col-lg-offset-2 col-xs-6 four-reasons-div"
+                 id="four-reasons-div">
+                <i class="fa fa-money fa-4x four-icon" aria-hidden="true"></i>
+                <p class="specp">Цена</p>
+                <hr class="spechr">
+                <p class="specptwo">Один час работы всего 8 руб</p>
+            </div>
+            <div class="pros-stock text-center col-lg-2 col-xs-6 four-reasons-div">
+                <i class="fa fa-handshake-o fa-4x four-icon" aria-hidden="true"></i>
+                <p class="specp">Простота</p>
+                <hr class="spechr">
+                <p class="specptwo">Приезжайте и ремонтируйте</p>
+            </div>
+            <div class="pros-stock text-center col-lg-2 col-xs-6 four-reasons-div">
+                <i class="fa fa-map-marker fa-4x four-icon" aria-hidden="true"></i>
+                <p class="specp">Доступность</p>
+                <hr class="spechr">
+                <p class="specptwo">В самом центре Минска</p>
+            </div>
+            <div class="pros-stock text-center col-lg-2 col-xs-6 four-reasons-div">
+                <i class="fa fa-calendar fa-4x four-icon" aria-hidden="true"></i>
+                <p class="specp">Открытость</p>
+                <hr class="spechr">
+                <p class="specptwo">Работаем без выходных</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row" id="google-map">
+            <h2 class="text-center">Где нас искать?</h2>
+            <h3 class="text-center">ул. Красная 7</h3>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var styles = [
+                        {
+                            stylers: [
+                                {hue: "#550000"},
+                                {saturation: 20}
+                            ]
+                        }, {
+                            featureType: "road",
+                            elementType: "geometry",
+                            stylers: [
+                                {lightness: 100},
+                                {visibility: "simplified"}
+                            ]
+                        }
+                    ];
+                    var uluru = {lat: 53.914063, lng: 27.573921};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 17,
+                        center: uluru,
+                        styles: styles
+                    });
+                    var bounds = new google.maps.LatLngBounds();
+                    var markers = [
+                        ['Сам Себе СТО', 53.914903, 27.572988],
+                        ['Въезд на территорию', 53.913197, 27.572181]
+                    ];
+                    for (i = 0; i < markers.length; i++) {
+                        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+                        bounds.extend(position);
+                        marker = new google.maps.Marker({
+                            position: position,
+                            map: map,
+                            title: markers[i][0]
+                        });
+
+     }
+                }
+            </script>
+        </div>
+        <a href="https://vk.com/samsebesto?w=page-119989699_51996651" target="_blank" class="podrobnoe"><h3
+                class="text-center">Подробное описание проезда есть в нашей группе
+            <i class="fa fa-vk" aria-hidden="true"></i></h3></a>
+        <hr>
+
+        <div class="row text-center" id="prices">
+            <h2>Всего 8 рублей за час!</h2>
+        </div>
+
+        <div class="text-center priceslist">
+            <h3>Помещение</h3>
+            <p>Стоимость часа составляет <span class="prices-bold">8 руб.</span></p>
+            <h3>Инструмент</h3>
+            <ul>
+                <li>Набор головок или набора ключей - <span class="prices-bold">1 бел. руб. в час</span></li>
+                <li>Сварочный аппарат - <span class="prices-bold">6 бел. руб. в час</span></li>
+                <li>Бензиновый компрессометр - <span class="prices-bold">2 бел. руб</span></li>
+                <li>Пневмогайковерт -  <span class="prices-bold">3 бел. руб. в час</span></li>
+            </ul>
+        </div>
+        <hr>
+
+
+        <div class="row">
+            <div id="gallery" class="fotorama col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" data-nav="thumbs"
+                 data-height="500px">
+                <img src="https://pp.userapi.com/c615816/v615816195/176f2/-gZsrDPaBAE.jpg" alt="помещение">
+                <img src="https://pp.userapi.com/c615816/v615816195/166a5/mAqkFj3rS64.jpg" alt="яма">
+                <img src="https://pp.userapi.com/c615816/v615816195/176e8/TACEQHoSzqU.jpg" alt="ворота">
+                <img src="https://pp.userapi.com/c636618/v636618195/6e3ee/rT85Ur3OkNQ.jpg" alt="яма">
+                <img src="https://pp.userapi.com/c636618/v636618195/6e3f7/Usrj_xsxj6g.jpg" alt="помещение">
+                <img src="https://pp.userapi.com/c636618/v636618195/6e401/5qWE8ZsJaSk.jpg" alt="помещение">
+                <img src="https://pp.userapi.com/c636618/v636618195/6e40b/ApvC8ldgmOQ.jpg" alt="помещение">
+                <img src="https://pp.userapi.com/c636618/v636618195/6e414/Wwv3suiSGHo.jpg" alt="помещение">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row" id="reviews">
+            <h2 class="text-center">Что про нас говорят?</h2>
+            <div class="gallery js-flickity"
+                 data-flickity-options='{ "freeScroll": false, "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <p class="review-text">Заезжал познакомиться с новым форматом СТО и устранить пару косяков.
+                        Все отлично, ребята адекватные, чисто, светло, удачное расположение, необходимый инструмент.
+                        Расширяют перечень услуг и инструмент. Буду заезжать ещё.</p>
+                    <p class="review-author">Юрий Брюнед</p>
+                </div>
+                <div class="gallery-cell">
+                    <p class="review-text">Заезжал отремонтировать глушитель, помогли недостающим инструментами, так же
+                        подварили маленько.
+                        Приеду ещё)))</p>
+                    <p class="review-author">Влад Потар</p>
+                </div>
+                <div class="gallery-cell">
+                    <p class="review-text">Был у ребят на СТО 17.03.17. (Сценик).
+                        Превосходное теплое помещение для проведения посильного ремонта.
+                        Просторный бокс на два машиноместа. Радует обилие инструмента.
+                        Огромное спасибо Николаю за помощь и за чашечку кофе</p>
+                    <p class="review-author">Оля Остроух</p>
+                </div>
+                <div class="gallery-cell">
+                    <p class="review-text">Отличный сервис! Ребята помогут словом и делом, приятная рабочая атмосфера!
+                        Буду обращаться еще.</p>
+                    <p class="review-author">Юра Лемешевский</p>
+                </div>
+                <div class="gallery-cell">
+                    <p class="review-text">Приезжал в пятницу, заменил свечи, под машиной проверил подвеску и проверил
+                        износ задних тормозных колодок.
+                        Плюсы: теплый гараж, две ямы, весь необходимый инструмент, всегда подскажут если необходимо и
+                        помогут.<br>
+                        Минусы: Не заметил... </p>
+                    <a href="https://vk.com/topic-119989699_34064430?post=82"><p class="review-author">Виктор
+                        Левковский</p></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row text-center socials">
+            <a href="https://vk.com/samsebesto" target="_blank">
+                <i class="fa fa-vk fa-3x col-lg-1 col-lg-offset-5" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/samsebestominsk/" target="_blank">
+                <i class="fa fa-instagram fa-3x col-lg-1" aria-hidden="true"></i></a>
+        </div>
+
+
+        <div class="row footer">
+            <div class="text-center">
+                <p id="footertitle" >САМ СЕБЕ СТО</p>
+                <p>+375-44-748-90-91</p>
+                <p>+375-29-260-79-73</p>
+                <p>г. Минск, ул. Красная 7</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSsbpeU11TZXDnCx3qC5TbuM9L2B5aKvQ&callback=initMap">
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-99754094-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
